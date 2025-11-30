@@ -24,8 +24,8 @@ A browser-based movie review platform built with PHP, MySQL, and Bootstrap 5.
 5. Open `index.php` in your browser to start using the app
 
 ## Screenshots
-![Homepage Screenshot](assets/img/home.png)
-![Movie Detail Screenshot](assets/img/review.png)
+![Homepage Screenshot](MovieReview/assets/img/home.png)
+![Movie Detail Screenshot](MovieReview/assets/img/review.png)
 
 ## Author
 - Name: [sundusit pumpeda]
