@@ -1,0 +1,127 @@
+/* ================================
+   โครงสร้างพื้นฐาน
+================================= */
+body {
+    background: #f7f8fa;
+    font-family: 'Prompt', sans-serif;
+}
+
+/* ================================
+   Sidebar – หมวดหมู่หนัง
+================================= */
+.list-group-item {
+    border: none;
+    padding: 12px 15px;
+    margin-bottom: 6px;
+    background: #ffffff;
+    border-radius: 8px;
+    transition: 0.2s ease;
+}
+
+.list-group-item:hover {
+    background: #e9f2ff;
+    transform: translateX(4px);
+}
+
+.list-group-item a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+/* ================================
+   หัวข้อ Section
+================================= */
+h4 {
+    font-weight: 600;
+    padding-bottom: 8px;
+    border-left: 4px solid #007bff;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+/* ================================
+   Card หนังทั้งหมด
+================================= */
+.movie-card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #fff;
+    transition: 0.25s ease;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
+
+.movie-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+}
+
+.movie-card img {
+    height: 250px;
+    object-fit: cover;
+}
+
+/* ================================
+   รีวิวล่าสุด
+================================= */
+.review-card {
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    background: #ffffff;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+}
+
+.review-card .card-body {
+    font-size: 15px;
+}
+
+/* ดาว */
+.star {
+    color: #ffbb00;
+    font-size: 17px;
+    margin-left: 8px;
+}
+
+/* ================================
+   ปุ่ม
+================================= */
+.btn-primary {
+    background: linear-gradient(45deg, #007bff, #0056d6);
+    border: none;
+    transition: 0.2s ease;
+    padding: 10px 15px;
+    font-weight: 500;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(45deg, #005be6, #003caa);
+}
+
+/* ================================
+   ฟอร์มเพิ่มรีวิว
+================================= */
+form .form-control,
+form .form-select {
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+textarea.form-control {
+    resize: none;
+}
+
+/* ================================
+   Responsive มือถือ
+================================= */
+@media (max-width: 768px) {
+    .movie-card img {
+        height: 200px;
+    }
+
+    .list-group-item {
+        font-size: 15px;
+    }
+}
